@@ -174,19 +174,19 @@ section img: last-child {
 
 
 /*
-.footer {
+footer {
     background:orange;
 }
 
-.header {
+header {
     background:red;
 }
 
-.article {
+article {
     background: blue;
 }
 
-.aside {
+aside {
     background:yellow;
 }
 
