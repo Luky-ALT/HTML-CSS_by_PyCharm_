@@ -1,0 +1,237 @@
+
+/*
+-----01 topography system
+Font size (px)
+
+10/12/14/16/18/20/24/30/36/44/52/62/74/86/98
+
+-Font heights:
+
+
+-Line heights:
+Default:1
+
+- SYSTEM (px)
+
+2/4/8/12/16/24/32/48/64/80/96/128
+
+---02 Colors
+-- download from Unsplash*/
+
+
+
+/* colors on the page "make_tint_sandshades.com*/
+
+* {
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html    {
+    width: 100%;
+}
+
+body {
+   font-family: sans-serif;
+   background: white;
+}
+header  {
+    background-color: black;
+    width: 100%;
+    font-size:20px;
+    color: white;
+    text-align: center;
+    padding: 0px 0px;
+}
+header p    {
+    font-size:40px;
+    padding: 20px 0px 0px 0px;
+}
+
+nav   {
+    font-size:20px;
+    background-color: black;
+    style-life: none;
+    text-align: right;
+}
+
+nav a   {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        border-radius: 2px;
+        padding: 10px 50px;
+}
+
+nav a:hover    {
+    background-color: red;
+}
+
+main    {
+    width: 100%;
+    margin: auto;
+}
+
+article {
+    background-color: white;
+    padding:0px 10px 15px 40px;
+    border-radius: 2px;
+    margin:bottom: 0px;
+    color: black;
+}
+
+article h1  {
+    font-size: 50px;
+    color: black;
+}
+
+article h1 span {
+    color: red;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    position: absolute;
+    color: black;
+    text-align: center;
+    padding: 0px 10px 0px 0px;;
+}
+
+ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    opacity: .9;
+    line-height:40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size:20px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: black;
+}
+
+a:hover {
+    background-color: green;
+}
+
+ul li ul {
+    background: none;
+}
+
+ul li ul li {
+    float: none;
+}
+
+ul li ul {
+    display: none;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+section {
+    display: flex;
+    padding: 260px 70px 50px 30px;
+    background-color:white;
+
+}
+
+section img   {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    margin-right: -4.0rem;
+    padding: 10px 0px 10px 0px;
+}
+
+section img: last-child {
+    margin: 0;
+}
+
+.border-distance {
+    font-size: 20px;
+    float: right;
+    padding: 35px 70px;
+    font-weight: 700;
+}
+
+.border-distance span {
+    color: orange;
+    font-weight: 900;
+}
+
+
+/*
+.footer {
+    background:orange;
+}
+
+.header {
+    background:red;
+}
+
+.article {
+    background: blue;
+}
+
+.aside {
+    background:yellow;
+}
+
+*/
+aside   {
+    display:flex;
+    float:right;
+    padding: 0px 190px;
+}
+
+
+.images   {
+    style-life: none;
+    style-life: none;
+    padding: 0px;
+    border-radius: 90px;
+}
+
+footer  {
+    height:10vh;
+    bottom:80;
+    background-color: white;
+    padding: 0px 0px 300px 40px;
+    z-index:1;
+    width: 100%;
+}
+
+footer h2 {
+    color: black;
+    font-size: 30px;
+    padding: 0px 0px 0px 0px;
+}
+
+footer h2 span  {
+    color: red;
+}
+
+.logos  {
+    background-color:white;
+    padding: 50px 559px 0px 0px;
+}
+
+.logos img  {
+    background-color: black;
+    width: 160px;
+    float: right;
+    padding: 10px 50px 10px 10px;
+}
